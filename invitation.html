@@ -4,6 +4,8 @@
 <meta name="interkassa-verification" content="16777a4e45e52d382d1f57897a225ebf" />
 <meta charset="utf-8">
 <title>Такси</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link rel="stylesheet" href="css/style.css" />
 <link rel="stylesheet" href="css/style-new-pages.css" />
 <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
@@ -25,12 +27,14 @@
     			<p class="text">Приглашаем водителей — комиссия <span class="inv-mark">3%.</span></p>
                 <p class="text">Ввывод денежных средств <span class="inv-mark">ежедневно.</span></p>
                 
-                <div class="fs-form form-order bounceInUp">
-                    <label class="input__label">ваше имя</label>
-                    <input class="input__field" type="text" id="username-or" placeholder="Введите ваше имя">
-                    <label class="input__label">номер телефона</label>
-                    <input class="input__field" type="text" id="tel-or" placeholder="Введите номер телефона">
-                    <button class="fs-button">присоединиться</button>
+                <div class="fs-form form-order bounceInUp" id="js-step-one">
+                    <form action="#" class="invitation-form">
+                        <label class="input__label">ваше имя</label>
+                        <input class="input__field" type="text" id="username-or" name="invitation-name" placeholder="Введите ваше имя">
+                        <label class="input__label">номер телефона</label>
+                        <input class="input__field" type="text" id="tel-or" name="invitation-phone" placeholder="Введите номер телефона">
+                        <button class="fs-button" type="submit">присоединиться</button>
+                    </form>
                 </div><!-- fs-form -->
 			</div>
 		</div>
