@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta name="interkassa-verification" content="16777a4e45e52d382d1f57897a225ebf" />
+<meta charset="utf-8">
+<title>Такси</title>
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/style-new-pages.css" />
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+</head>
+
+<body id="page">
+	<section id="main">
+		<header id="header">
+        	<div class="container invitation-container">
+            	<!-- <div class="item sign-in"><a href="#" class="js-write-modal" data-modal-id="#js-login-modal">Вход для водителей</a></div> -->
+                <!--<div class="item logo"><a href="/"><img src="/img/logo.jpg" alt="logo"></a></div>-->
+                <div class="item tel">8 (3842) 76-68-93</div>
+            </div>
+		</header> <!-- END id="header" -->
+
+		<div id="content">
+			<div class="wrap wrap-invitation">
+				<h1><span class="inv-mark">парк “форсаж”</span>Официальный партнер Яндекс такси</h1>
+    			<p class="text">Приглашаем водителей — комиссия <span class="inv-mark">3%.</span></p>
+                <p class="text">Ввывод денежных средств <span class="inv-mark">ежедневно.</span></p>
+                
+                <div class="fs-form form-order bounceInUp" id="js-step-one" data-token="<?=$config['token']?>">
+                    <label class="input__label">ваше имя</label>
+                    <input class="input__field js-dadata" type="text" id="username-or" placeholder="Введите ваше имя">
+                    <label class="input__label">номер телефона</label>
+                    <input class="input__field js-dadata" type="text" id="tel-or" placeholder="Введите номер телефона">
+                    <button class="fs-button">присоединиться</button>
+                </div><!-- fs-form -->
+			</div>
+		</div>
+	</section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.suggestions/17.2/js/jquery.suggestions.min.js"></script>
+    <script src="js/jquery.ui.widget.js"></script>
+    <script src="js/jquery.iframe-transport.js"></script>
+    <script src="js/jquery.fileupload.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="//api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
