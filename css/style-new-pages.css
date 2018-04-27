@@ -150,6 +150,11 @@
 
 
 @media only screen and (max-width: 830px) {
+    .wrap-invitation,
+    .wrap-directions{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
     .directions-row{
         justify-content: center;
         margin-bottom: 100px;
