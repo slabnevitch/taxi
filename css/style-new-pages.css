@@ -212,4 +212,7 @@
     #content .directions-order{
         width: 260px;
     }
+    #header .logo, #header .tel{
+        display: block;
+    }
 }
