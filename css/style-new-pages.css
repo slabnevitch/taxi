@@ -40,11 +40,12 @@
     font-weight: normal;
     font-style: normal;
 }
-*{
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
+.wrap-invitation,
+    .wrap-directions{
+       -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+       box-sizing: border-box;
+    }
 #page {
     background-image: url('../img/bg.jpg');
 }
