@@ -130,6 +130,10 @@
     width: 144px;
     margin: 0;
     display: block;
+    -webkit-column-rule: blue;
+    -moz-column-rule: blue;
+    -o-column-rule: blue;
+    column-rule: blue;
 }
 
 .wrap-invitation{
@@ -155,7 +159,7 @@
 }
 
 @media only screen and (max-width: 856px) {
-    
+
     .wrap-invitation,
     .wrap-directions{
         padding-left: 15px;
