@@ -40,12 +40,12 @@
     font-weight: normal;
     font-style: normal;
 }
-/*.wrap-invitation,
+.wrap-invitation,
     .wrap-directions{
        -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
        box-sizing: border-box;
-    }*/
+    }
 #header{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -157,10 +157,10 @@
 
 @media only screen and (max-width: 830px) {
     .wrap-invitation,
-    /*.wrap-directions{
+    .wrap-directions{
         padding-left: 15px;
         padding-right: 15px;
-    }*/
+    }
     .directions-row{
         justify-content: center;
         margin-bottom: 100px;
