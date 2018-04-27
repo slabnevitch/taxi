@@ -46,6 +46,11 @@
        -moz-box-sizing: border-box;
        box-sizing: border-box;
     }*/
+#header{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 #page {
     background-image: url('../img/bg.jpg');
 }
