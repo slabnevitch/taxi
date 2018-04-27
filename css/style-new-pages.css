@@ -40,12 +40,12 @@
     font-weight: normal;
     font-style: normal;
 }
-.wrap-invitation,
+/*.wrap-invitation,
     .wrap-directions{
        -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
        box-sizing: border-box;
-    }
+    }*/
 #page {
     background-image: url('../img/bg.jpg');
 }
@@ -150,7 +150,7 @@
 }
 
 
-@media only screen and (max-width: 890px) {
+@media only screen and (max-width: 830px) {
     .wrap-invitation,
     /*.wrap-directions{
         padding-left: 15px;
