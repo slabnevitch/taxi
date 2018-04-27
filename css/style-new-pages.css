@@ -130,10 +130,7 @@
     width: 144px;
     margin: 0;
     display: block;
-    -webkit-column-rule: blue;
-    -moz-column-rule: blue;
-    -o-column-rule: blue;
-    column-rule: blue;
+    color: blue;
 }
 
 .wrap-invitation{
